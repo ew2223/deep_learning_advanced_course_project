@@ -24,6 +24,7 @@ utils/
   cifar_utils.py          CIFAR-10-LT data, ResNet-32, MiSLAS stage-2 modules, LNR flipping, metrics
   download_keel_data.py   downloads the five KEEL datasets
 LICENSE
+THIRD_PARTY_LICENSES.md
 ```
 
 The scripts read their data from `data/` and write their results to `results/`. Both folders are
