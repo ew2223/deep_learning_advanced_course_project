@@ -12,17 +12,6 @@ and evaluates it, at a reduced scale, in the paper's two settings:
 - **Multi-class classification** on long-tailed CIFAR-10 (CIFAR-10-LT, imbalance ratio 100):
   MiSLAS, MiSLAS+SelMix and MiSLAS+LNR.
 
-## Main findings
-
-- **KEEL:** LNR has a higher mean than the baseline in 36 of the 45 combinations of dataset,
-  classifier and metric, as in the paper, but it is only comparable to SMOTE (higher in 23 of 45;
-  34 in the paper). In paired Wilcoxon signed-rank tests, 30 of the 45 differences between LNR and
-  SMOTE are not significant.
-- **CIFAR-10-LT:** with the epoch selected on the test set, as in the paper, LNR ties with MiSLAS in
-  overall accuracy (82.38±0.07%  vs. 82.34±0.15%) and improves the Few-shot group by 0.95 percentage points
-  (10.35 in the paper). SelMix in its default setting exceeds LNR overall (83.21%) and in the
-  Few-shot group.
-
 ## Repository structure
 
 ```
